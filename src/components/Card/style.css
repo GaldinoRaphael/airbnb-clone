@@ -1,0 +1,46 @@
+.card{
+    padding: 0 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-informations{
+    height: 100%;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.card-informations--photo{
+    width: 176px;
+}
+
+.card-information--rating{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    height: 100%;
+}
+
+.card-information--rating-info{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    height: 100%;
+    color: #918E9B;
+}
+
+.card-title{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.card-value{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
