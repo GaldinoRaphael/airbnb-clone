@@ -10,8 +10,9 @@ export default function Style(){
             <img src={Image} alt="Katie" className="card-informations--photo" />
             <div className="card-informations">
                 <img src={Star} alt="rating" />
-                <p className="card-information--rating">5.0</p>
-                <p className="card-information--rating-info">(6) USA</p>
+                <span className="card-information--rating">5.0</span>
+                <span className="card-information--rating-info">(6) •</span>
+                <span className="card-information--rating-info">USA</span>
             </div>
             <p className="card-title">Life lessons with Katie Zaferes</p>
             <p className="card-value">From $136 / person</p>
