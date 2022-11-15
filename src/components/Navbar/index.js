@@ -5,7 +5,7 @@ import AirbnbLogo from '../../imgs/airbnb-logo.svg'
 export default function Navbar(){
     return (
         <nav>
-            <img src={AirbnbLogo} alt="Airbnb" />
+            <img className="navbar-logo" src={AirbnbLogo} alt="Airbnb" />
         </nav>
     )
 }
