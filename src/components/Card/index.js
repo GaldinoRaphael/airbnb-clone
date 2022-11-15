@@ -1,21 +1,21 @@
 import React from "react";
 import './style.css';
-import Image from '../../imgs/katie.png';
 import Star from '../../imgs/star.svg';
 
 
-export default function Style(){
+export default function Card(props){
+    console.log(`../../imgs/${props.image}`)
     return (
         <div className="card">
-            <img src={Image} alt="Katie" className="card-informations--photo" />
+            <img src={require(`../../imgs/${props.image}`)} alt="Katie" className="card-informations--photo" />
             <div className="card-informations">
                 <img src={Star} alt="rating" />
-                <span className="card-information--rating">5.0</span>
-                <span className="card-information--rating-info">(6) •</span>
-                <span className="card-information--rating-info">USA</span>
+                <span className="card-information--rating">{props.rating}</span>
+                <span className="card-information--rating-info">{props.ratingNumberPeople}</span>
+                <span className="card-information--rating-info">{props.country}</span>
             </div>
-            <p className="card-title">Life lessons with Katie Zaferes</p>
-            <p className="card-value">From $136 / person</p>
+            <p className="card-title">{props.title}</p>
+            <p className="card-value">{props.value}</p>
         </div>
     )
 }

@@ -9,7 +9,14 @@ export default function App(){
         <div className="App">
             <Navbar />
             <Hero />
-            <Card />
+            <Card 
+                image='katie.png'
+                rating='5.0'
+                ratingNumberPeople='(6) •'
+                country='USA'
+                title='Life lessons with Katie Zaferes'
+                value='From $136 / person'
+            />
         </div>
     );
 }
