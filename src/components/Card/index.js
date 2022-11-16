@@ -4,9 +4,16 @@ import Star from '../../imgs/star.svg';
 
 
 export default function Card(props){
-    console.log(`../../imgs/${props.image}`)
+    let badgeText
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE"
+    }
+    
     return (
         <div className="card">
+            {badgeText && <div className="card-badge">{badgeText}</div>}
             <img src={require(`../../imgs/${props.image}`)} alt="Katie" className="card-informations--photo" />
             <div className="card-informations">
                 <img src={Star} alt="rating" />
