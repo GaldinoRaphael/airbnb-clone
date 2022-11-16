@@ -1,7 +1,9 @@
 .card{
+    width: 175px;
     padding: 0 34px;
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
     gap: 8px;
 
     font-weight: 300;
@@ -18,7 +20,9 @@
 }
 
 .card-informations--photo{
-    width: 176px;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
 }
 
 .card-information--rating{
