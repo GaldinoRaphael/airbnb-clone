@@ -12,10 +12,10 @@ export default function Card(props){
                 <img src={Star} alt="rating" />
                 <span className="card-information--rating">{props.rating}</span>
                 <span className="card-information--rating-info">{props.ratingNumberPeople}</span>
-                <span className="card-information--rating-info">{props.country}</span>
+                <span className="card-information--rating-info">{props.location}</span>
             </div>
             <p className="card-title">{props.title}</p>
-            <p className="card-value">{props.value}</p>
+            <p className="card-value">From ${props.value} / person</p>
         </div>
     )
 }
