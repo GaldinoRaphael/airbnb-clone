@@ -17,6 +17,9 @@ code {
     monospace;
 }
 
+section {
+  padding: 0 34px;
+}
 .cards-list {
   display: flex;
   flex-wrap: nowrap;
