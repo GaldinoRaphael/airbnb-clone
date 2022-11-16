@@ -1,5 +1,6 @@
 This project has been developed for the second part of the course Learn React for Free: https://scrimba.com/learn/learnreact/.\
 Based on figma: https://www.figma.com/file/xFeAMFUthZORGycc8wtfi0/Airbnb-Experiences-(Copy)?node-id=0%3A1&t=K5bmbBpL8JvkvPw1-0.\
+link to see the final project: https://vermillion-rolypoly-96afb4.netlify.app/.\
 
 # Getting Started with Create React App
 
